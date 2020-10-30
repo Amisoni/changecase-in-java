@@ -15,6 +15,11 @@ class ChangeCase
 			System.out.println("Entered String is in UpperCase\n");
 			System.out.println("Here is Converted String..."+name.toLowerCase());
 		}
+		else if(returnString=="lower")
+		{
+			System.out.println("Entered String is in LowerCase\n");
+			System.out.println("Here is Uppercase String..."+name.toUpperCase());
+		}
 		else
 		{
 			System.out.println("You have entered mixed String..Please Enter Either Upper or Lowercase");
